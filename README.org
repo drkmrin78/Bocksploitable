@@ -7,7 +7,9 @@
   crashed service then the container exits. To add a service to the container,
   you must add the source to the 'exploitables' directory and add to start.sh
   the appropriate initialization code. For compiling code, add to the Dockerfile
-  the appropriate compile commands as well.  
+  the appropriate compile commands as well. Note that the bufferoverflow services 
+  are written in C so they will crash on faild attempts, 'start.sh' will spawn them 
+  back up after a minute.
 
   The exploitable code provide in this container is thanks to Kevin Bock, George
   Hughey, and Srujan Thotapally (in no particular order). For another
