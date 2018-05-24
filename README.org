@@ -1,6 +1,6 @@
 #+title: Bocksploitable Docker Container
 
-* Description
+*** Description
   This is an exploitable Docker image for penetration testing. The exploit
   source code can be found in the 'exploitables' directory. The 'start.sh' is
   the main process for the container. If 'start.sh' terminates because of a
@@ -15,7 +15,7 @@
   Hughey, and Srujan Thotapally (in no particular order). For another
   exploitable Docker image see [[https://hub.docker.com/r/peakkk/metasploitable/][peakkk/metasploitable]]. 
 
-* Ports
+*** Ports
   - 80: webapp # not setup yet.
   - 3285: BockServe2.0a
   - 33333: compiler_server.py
@@ -27,7 +27,7 @@
     - 1003: lab3.c
     - 1004: lab4.c
 
-* Usage
+*** Usage
   #+begin_src 
     docker build -t bocksploitable .          # Build container
     docker run -it bocksploitable             # Run container
