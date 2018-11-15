@@ -1,4 +1,4 @@
-#+title: Bocksploitable Docker Container
+#+title: Bocksploitable Docker Container (Moved to https://gitlab.com/drakemp)
 
 *** Description
   This is an exploitable Docker image for penetration testing. The exploit
